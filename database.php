@@ -8,3 +8,7 @@ $food2 = new food("Almo Nature Holistic Maintennance Medium Large Tonno e Riso",
 $food3 = new food("Almo nature Cat Daily Lattina", "34,99", "https://www.amoreanimaleshop.it/wp-content/uploads/2021/02/Almo-Nature-Cat-Daily-Coniglio-400.jpg", "400g", '<i class="fa-solid fa-cat"></i> gatto ', "tonno,pollo,prosciutto");
 $food4 = new food("Mangime per Pesci Guppy in Fiocchi", "2,95", "https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg?v=1762045775", "30g",  '<i class="fa-solid fa-fish"></i> pesce', "Pesci e sottoprodotti dei pesci, cereali,lieviti,alghe");
 $arrayFoods = [$food1, $food2, $food3, $food4];
+
+// $accesories1 = new accesories('Voliera Wilma in Legno', '184,99', 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg?v=1760290610', );
+
+// $arrayAccesories = [$accesories1, $accesories2];
