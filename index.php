@@ -40,11 +40,19 @@ include __DIR__ . '/database.php';
                     <p>dimensioni: <?php echo  $child->dimension; ?></p>
                 </div>
             <?php } ?>
-
+            <!--toys-->
+            <?php foreach ($arrayToys as $child) { ?>
+                <div class="card col-3 m-5 object-fit">
+                    <img class="h-50 p-1 object-fit-contain" src="<?php echo $child->img; ?>" alt="prodotto">
+                    <h2><?php echo  $child->title; ?> </h2>
+                    <p><?php echo  $child->race; ?> </p>
+                    <p>Prezzo: &#8364; <?php echo  $child->price; ?></p>
+                    <p>Caratteristiche: <?php echo  $child->features; ?></p>
+                    <p>dimensioni: <?php echo  $child->dimension; ?></p>
+                </div>
+            <?php } ?>
         </div>
-
     </div>
-
 </body>
 
 </html>
