@@ -18,6 +18,7 @@ include __DIR__ . '/database.php';
     <div class="container pt-5">
         <h1> I nostri prodotti :</h1>
         <div class="  pt-5 row  justify-content-around ">
+            <!--cibo-->
             <?php foreach ($arrayFoods as $child) { ?>
                 <div class="card col-3 m-5 object-fit">
                     <img class="h-50 p-1 object-fit-contain" src="<?php echo $child->img; ?>" alt="prodotto">
@@ -26,6 +27,17 @@ include __DIR__ . '/database.php';
                     <p>Prezzo: &#8364; <?php echo  $child->price; ?></p>
                     <p>Peso netto: <?php echo  $child->weight; ?></p>
                     <p>Ingredienti: <?php echo  $child->ingredients; ?></p>
+                </div>
+            <?php } ?>
+            <!--accessori-->
+            <?php foreach ($arrayAccesories as $child) { ?>
+                <div class="card col-3 m-5 object-fit">
+                    <img class="h-50 p-1 object-fit-contain" src="<?php echo $child->img; ?>" alt="prodotto">
+                    <h2><?php echo  $child->title; ?> </h2>
+                    <p><?php echo  $child->race; ?> </p>
+                    <p>Prezzo: &#8364; <?php echo  $child->price; ?></p>
+                    <p>Materiale: <?php echo  $child->material; ?></p>
+                    <p>dimensioni: <?php echo  $child->dimension; ?></p>
                 </div>
             <?php } ?>
 

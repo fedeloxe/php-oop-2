@@ -6,9 +6,9 @@ class accesories extends Products
     public $material;
     public $dimension;
 
-    public function __construct($title, $price, $img, $weight, $race, $material, $dimension)
+    public function __construct($title, $price, $img, $race, $material, $dimension)
     {
-        parent::__construct($title, $price, $img, $weight);
+        parent::__construct($title, $price, $img,);
         $this->race = $race;
         $this->material = $material;
         $this->dimension = $dimension;
