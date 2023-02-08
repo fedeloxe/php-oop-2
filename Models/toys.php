@@ -1,6 +1,6 @@
 <?php
 
-class toys extends Products
+class toy extends Products
 {
     public $race;
     public $features;

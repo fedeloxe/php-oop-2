@@ -10,12 +10,12 @@ $food3 = new food("Almo nature Cat Daily Lattina", "34,99", "https://www.amorean
 $food4 = new food("Mangime per Pesci Guppy in Fiocchi", "2,95", "https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg?v=1762045775", "30g",  '<i class="fa-solid fa-fish"></i> pesce', "Pesci e sottoprodotti dei pesci, cereali,lieviti,alghe");
 $arrayFoods = [$food1, $food2, $food3, $food4];
 
-$accesories1 = new accesories('Voliera Wilma in Legno', '184,99', 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg?v=1760290610', '<i class="fa-solid fa-dove"></i> uceelli', "Legno", "M: L83 x P 67 x H 153 cm");
-$accesories2 =  new accesories('Cartucce Filtranti per Filtro Easy Crystal', '2,29', 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg?v=1759941808&quality=1&width=80&height=80', '<i class="fa-solid fa-fish"></i> pesce', "Materiale espanso", "ND");
+$accessory1 = new accessory('Voliera Wilma in Legno', '184,99', 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg?v=1760290610', '<i class="fa-solid fa-dove"></i> uceelli', "Legno", "M: L83 x P 67 x H 153 cm");
+$accessory2 = new accessory('Cartucce Filtranti per Filtro Easy Crystal', '2,29', 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg?v=1759941808&quality=1&width=80&height=80', '<i class="fa-solid fa-fish"></i> pesce', "Materiale espanso", "ND");
 
-$arrayAccesories = [$accesories1, $accesories2];
+$arrayAccesories = [$accessory1, $accessory2];
 
-$toys1 = new toys('kongn Classic', '13,49', 'https://www.naturepetshop.it/wp-content/uploads/T1_1_1000x1000.jpg', '<i class="fa-solid fa-dove"></i> uceelli', 'Galleggia e rimbalza', '8,5cm x 10cm');
-$toys2 = new toys('Topini di peluche Trixie', '4,9', 'https://www.zampashop.com/9326-large_default/topo-gioco-per-gatti-con.jpg', '<i class="fa-solid fa-cat"></i> gatto ', 'Morbido con codina in corda', '8,5cm x 10 cm');
+$toy1 = new toy('kongn Classic', '13,49', 'https://www.naturepetshop.it/wp-content/uploads/T1_1_1000x1000.jpg', '<i class="fa-solid fa-dove"></i> uceelli', 'Galleggia e rimbalza', '8,5cm x 10cm');
+$toy2 = new toy('Topini di peluche Trixie', '4,9', 'https://www.zampashop.com/9326-large_default/topo-gioco-per-gatti-con.jpg', '<i class="fa-solid fa-cat"></i> gatto ', 'Morbido con codina in corda', '8,5cm x 10 cm');
 
-$arrayToys = [$toys1, $toys2];
+$arrayToys = [$toy1, $toy2];

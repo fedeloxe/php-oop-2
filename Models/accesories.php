@@ -1,6 +1,6 @@
 <?php
 
-class accesories extends Products
+class accessory extends Products
 {
     public $race;
     public $material;
